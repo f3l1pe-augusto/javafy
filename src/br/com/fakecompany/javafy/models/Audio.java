@@ -1,4 +1,4 @@
-package br.com.fakecompany.javafy;
+package br.com.fakecompany.javafy.models;
 
 public class Audio {
     private String title;
@@ -44,5 +44,12 @@ public class Audio {
 
     public void play() {
         totalPlays++;
+    }
+
+    public void showAudio() {
+        System.out.println("Title: " + title);
+        System.out.println("Total plays: " + totalPlays);
+        System.out.println("Total likes: " + likes);
+        System.out.println("Duration in seconds: " + durationInSeconds);
     }
 }
