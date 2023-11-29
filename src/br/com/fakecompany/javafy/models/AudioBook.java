@@ -17,10 +17,19 @@ public class AudioBook extends Audio implements Classifiable {
     public void showAudio() {
         super.showAudio();
         System.out.println("Author(s): " + author);
+        System.out.println("Avaliation: " + getClassification());
     }
 
     @Override
     public int getClassification() {
-        return 0;
+        if (getLikes() < 100) {
+            return 2;
+        } else if (getLikes() < 1000) {
+            return 3;
+        } else if (getLikes() < 10000) {
+            return 4;
+        } else {
+            return 5;
+        }
     }
 }

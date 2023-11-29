@@ -26,6 +26,16 @@ public class Main {
 
         music2.showAudio();
 
+        Music music3 = new Music();
+
+        music3.setTitle("Happier Than Ever");
+        music3.setSinger("Billie Eilish");
+        music3.setDurationInSeconds(315);
+        music3.setTotalPlays(339000000);
+        music3.setLikes(6200000);
+
+        music3.showAudio();
+
         Podcast podcast1 = new Podcast();
 
         System.out.println("\nPODCASTS");
@@ -39,6 +49,18 @@ public class Main {
 
         podcast1.showAudio();
 
+        Podcast podcast2 = new Podcast();
+
+        podcast2.setTitle("Podpah");
+        podcast2.setDurationInSeconds(8720);
+        podcast2.setTotalPlays(5400000);
+        podcast2.setLikes(211000);
+        podcast2.setEpisodeNumber(5);
+        podcast2.setHost("Igão e Mítico");
+        podcast2.setGuest("Lucas Inutilismo");
+
+        podcast2.showAudio();
+
         AudioBook audioBook1 = new AudioBook();
 
         System.out.println("\nAUDIOBOOKS");
@@ -49,6 +71,16 @@ public class Main {
         audioBook1.setAuthor("J.K. Rowling");
 
         audioBook1.showAudio();
+
+        AudioBook audiobook2 = new AudioBook();
+
+        audiobook2.setTitle("Animal Farm");
+        audiobook2.setDurationInSeconds(9341);
+        audiobook2.setTotalPlays(1400000);
+        audiobook2.setLikes(17000);
+        audiobook2.setAuthor("George Orwell");
+
+        audiobook2.showAudio();
         System.out.println("\n*******************************************************");
     }
 }
