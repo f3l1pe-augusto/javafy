@@ -1,9 +1,12 @@
+import br.com.fakecompany.javafy.calculus.RecomendationFilter;
 import br.com.fakecompany.javafy.models.AudioBook;
 import br.com.fakecompany.javafy.models.Music;
 import br.com.fakecompany.javafy.models.Podcast;
 
 public class Main {
     public static void main(String[] args) {
+        RecomendationFilter recomendationFilter = new RecomendationFilter();
+
         Music music1 = new Music();
 
         System.out.println("\n****************** Welcome to JavaFy ******************");
@@ -15,6 +18,7 @@ public class Main {
         music1.setLikes(2600000);
 
         music1.showAudio();
+        recomendationFilter.filter(music1);
 
         Music music2 = new Music();
 
@@ -25,6 +29,7 @@ public class Main {
         music2.setLikes(15000000);
 
         music2.showAudio();
+        recomendationFilter.filter(music2);
 
         Music music3 = new Music();
 
@@ -35,6 +40,7 @@ public class Main {
         music3.setLikes(6200000);
 
         music3.showAudio();
+        recomendationFilter.filter(music3);
 
         Podcast podcast1 = new Podcast();
 
@@ -48,6 +54,7 @@ public class Main {
         podcast1.setGuest("Elon Musk");
 
         podcast1.showAudio();
+        recomendationFilter.filter(podcast1);
 
         Podcast podcast2 = new Podcast();
 
@@ -60,6 +67,7 @@ public class Main {
         podcast2.setGuest("Lucas Inutilismo");
 
         podcast2.showAudio();
+        recomendationFilter.filter(podcast2);
 
         AudioBook audioBook1 = new AudioBook();
 
@@ -71,6 +79,7 @@ public class Main {
         audioBook1.setAuthor("J.K. Rowling");
 
         audioBook1.showAudio();
+        recomendationFilter.filter(audioBook1);
 
         AudioBook audiobook2 = new AudioBook();
 
@@ -81,6 +90,18 @@ public class Main {
         audiobook2.setAuthor("George Orwell");
 
         audiobook2.showAudio();
+        recomendationFilter.filter(audiobook2);
+
+        AudioBook audiobook3 = new AudioBook();
+
+        audiobook3.setTitle("The Subtle Art of Not Giving a F*ck");
+        audiobook3.setDurationInSeconds(19382);
+        audiobook3.setTotalPlays(32000);
+        audiobook3.setLikes(884);
+        audiobook3.setAuthor("Mark Manson");
+
+        audiobook3.showAudio();
+        recomendationFilter.filter(audiobook3);
         System.out.println("\n*******************************************************");
     }
 }
