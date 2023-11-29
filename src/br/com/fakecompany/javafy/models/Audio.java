@@ -47,7 +47,7 @@ public class Audio {
     }
 
     public void showAudio() {
-        System.out.println("Title: " + title);
+        System.out.println("\nTitle: " + title);
         System.out.println("Total plays: " + totalPlays);
         System.out.println("Total likes: " + likes);
         System.out.println("Duration in seconds: " + durationInSeconds);
