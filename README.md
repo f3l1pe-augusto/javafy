@@ -1,6 +1,6 @@
 # javafy
 
-This an audio application built in Java. My purpose was to train Object-Oriented Programming.
+This an audio application built in Java. My purpose was to train Object-Oriented Programming, so I could use concepts like classes, objects, encapsulation, inheritance, polymorphism (overriding and interface) and abstraction.
 
 # Music
 
@@ -8,7 +8,7 @@ You can set Musics, for example, set their title, singer, duration in seconds, t
 
 # Pocast
 
-You can set Podcasts, for exaple, set their hosts, guests and episode number.
+You can set Podcasts, for example, set their hosts, guests and episode number.
 
 # AudioBook
 
