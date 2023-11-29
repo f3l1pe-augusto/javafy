@@ -1,4 +1,4 @@
-# javafy
+# JavaFy
 
 This an audio application built in Java. My purpose was to train Object-Oriented Programming, so I could use concepts like classes, objects, encapsulation, inheritance, polymorphism (overriding and interface) and abstraction. You can see the codes in src folder.
 
