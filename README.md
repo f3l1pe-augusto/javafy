@@ -14,4 +14,4 @@ You can set Podcasts, for example, set their hosts, guests and episode number.
 
 You can set your favorite AudioBooks. Give them an avaliation and add a filter recomendation.
 
-![Project preview](https://github.com/f3l1pe-augusto/bytebank/blob/main/images/Project%20Print.png?raw=true)
+![Project preview](https://github.com/f3l1pe-augusto/javafy/blob/main/images/Project%20Print.png?raw=true)
