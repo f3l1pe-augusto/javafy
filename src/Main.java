@@ -16,6 +16,8 @@ public class Main {
         music1.setDurationInSeconds(403);
         music1.setTotalPlays(458000000);
         music1.setLikes(2600000);
+        music1.play();
+        music1.like();
 
         music1.showAudio();
         recomendationFilter.filter(music1);
@@ -27,6 +29,8 @@ public class Main {
         music2.setDurationInSeconds(162);
         music2.setTotalPlays(220000000);
         music2.setLikes(15000000);
+        music2.play();
+        music2.like();
 
         music2.showAudio();
         recomendationFilter.filter(music2);
@@ -38,6 +42,8 @@ public class Main {
         music3.setDurationInSeconds(315);
         music3.setTotalPlays(339000000);
         music3.setLikes(6200000);
+        music3.play();
+        music3.like();
 
         music3.showAudio();
         recomendationFilter.filter(music3);
@@ -52,6 +58,8 @@ public class Main {
         podcast1.setEpisodeNumber(1470);
         podcast1.setHost("Joe Rogan");
         podcast1.setGuest("Elon Musk");
+        podcast1.play();
+        podcast1.like();
 
         podcast1.showAudio();
         recomendationFilter.filter(podcast1);
@@ -65,6 +73,8 @@ public class Main {
         podcast2.setEpisodeNumber(5);
         podcast2.setHost("Igão e Mítico");
         podcast2.setGuest("Lucas Inutilismo");
+        podcast2.play();
+        podcast2.like();
 
         podcast2.showAudio();
         recomendationFilter.filter(podcast2);
@@ -77,6 +87,8 @@ public class Main {
         audioBook1.setTotalPlays(571000);
         audioBook1.setLikes(15000);
         audioBook1.setAuthor("J.K. Rowling");
+        audioBook1.play();
+        audioBook1.like();
 
         audioBook1.showAudio();
         recomendationFilter.filter(audioBook1);
@@ -88,6 +100,8 @@ public class Main {
         audiobook2.setTotalPlays(1400000);
         audiobook2.setLikes(17000);
         audiobook2.setAuthor("George Orwell");
+        audiobook2.play();
+        audiobook2.like();
 
         audiobook2.showAudio();
         recomendationFilter.filter(audiobook2);
@@ -99,6 +113,8 @@ public class Main {
         audiobook3.setTotalPlays(32000);
         audiobook3.setLikes(884);
         audiobook3.setAuthor("Mark Manson");
+        audiobook3.play();
+        audiobook3.like();
 
         audiobook3.showAudio();
         recomendationFilter.filter(audiobook3);
